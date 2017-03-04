@@ -1,0 +1,83 @@
+$grid-columns: 12;
+
+// --------------------------------------------------------------
+// horizontal breakpoints
+// --------------------------------------------------------------
+// Breakpoint Mobile
+$bm: "only screen and (max-width: 61em)";
+// Breakpoint Desktop
+$bd: "only screen and (min-width: 61em)";
+$bdlg: "only screen and (min-width: 1400px)";
+$bt: "only screen and (min-width: 61em) and (max-width: 1260px)";
+// --------------------------------------------------------------
+
+%clearfix {
+	*zoom: 1;
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.clearfix:after,
+.cf:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+}
+.clearfix, .cf { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix,
+* html .cf { height: 1%; }
+.clearfix,
+.cf { display: block; }
+/* close commented backslash hack */
+
+img {
+	width: auto;
+	max-width: 100%;
+	height: auto !important;
+}
+
+.wrap-fluid {
+	float: left;
+	margin: 0 auto;
+	margin: 0 $sitePadding;
+
+	width: 40%;
+	@media #{$bm} {
+		width: auto;
+	}
+}
+
+.row {
+	@extend %clearfix;
+}
+
+[class*='col-'] {
+	float: left;
+	padding: 0;
+	width: 100%;
+	min-height: 1px;
+}
+
+@media #{$bd} {
+	@for $i from 1 through $grid-columns {
+	  	.col-#{$i} {
+	  		width: 100% / $grid-columns * $i;
+	  		position: relative;
+			padding: 0 20px;
+	  	}
+	}
+}
+
+.centered {
+	float: none;
+	margin: 0 auto;
+}

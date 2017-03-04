@@ -1,0 +1,9 @@
+Title: About
+
+----
+
+Text:
+
+I share thoughts on (link: http://twitter.com/yordanoff text: Twitter popup: yes). My travel stories are available on (link: http://instagram.com/yordanoff text: Instagram <span class="fa fa-instagram"></span> popup: yes). Feel free to fork some code on (link: http://github.com/yordanoff text: Github <span class="fa fa-github"></span> popup: yes) or get in touch to make something awesome together - (email:joro@yordanoff.net text: joro@yordanoff.net).
+
+Also this is a demo page, so I don't really exist. But you can (link: https://gum.co/kompact text: download class: accent popup: yes) the theme **for free**.

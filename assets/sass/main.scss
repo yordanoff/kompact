@@ -1,0 +1,166 @@
+@import '_components';
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	overflow-x: hidden !important;
+	background: $bgr1;
+}
+body {
+	overflow-x: hidden !important;
+	color: $c2;
+}
+
+img {
+	margin: $sp2 0;
+}
+
+// ---------------------------------------------------------
+// Anchors
+// ---------------------------------------------------------
+a {
+	color: $c1 !important;
+	text-decoration: none;
+	border-bottom: 3px solid $ca1;
+	transition: .2s all ease;
+	&:hover {
+		color: inherit;
+		border-color: $ca2;
+	}
+	&:active {
+		opacity: .5;
+		color: inherit;
+	}
+	&:link {
+		color: inherit;
+	}
+	&:visited {
+		color: inherit;
+	}
+}
+// ---------------------------------------------------------
+// Offcanvas Menu
+// ---------------------------------------------------------
+$offcanvasMenu: 256px;
+
+.nav-open {
+	overflow: hidden;
+}
+
+#canvas {
+	background: #fff;
+	height: 100%;
+	position: absolute;
+	transition: transform .4s cubic-bezier(0.2,0.3,0.25,0.9);
+	.nav-open & {
+		transform: translate3d(-$offcanvasMenu, 0, 0);
+	}
+}
+
+aside {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: $offcanvasMenu;
+	padding: 20px;
+	z-index: -1;
+	background: $c1;
+}
+
+// ---------------------------------------------------------
+// Header
+// ---------------------------------------------------------
+.header {
+	position: relative;
+	z-index: 1000;
+	width: 100%;
+	margin: 0;
+	padding: $sitePadding/2 0;
+	margin-bottom: $sp2;
+	font-size: $fs3;
+	color: $c1;
+	display: flex;
+	align-items: center;
+	align-content: center;
+
+	.logo {
+		float: left;
+		display: block;
+		font-family: $ff1;
+		font-weight: bold;
+	}
+
+	.hamburger-container {
+		display: block;
+		z-index: 1100;
+		position: fixed;
+		position: absolute;
+		right: $sitePadding;
+		margin-top: 1px;
+	}
+}
+
+.menu {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	float: left;
+	font-family: $ff1;
+	line-height: 1;
+	color: #fff;
+
+	li {
+		list-style: none;
+		position: relative;
+		padding: 0;
+		margin: 0;
+		display: block;
+		a {
+			text-align: left;
+			padding: $sp2/2;
+			display: inline-block;
+			border: 0;
+			font-size: $fs3;
+			color: #fff !important;
+			&:hover,
+			&.active {
+				color: $ca1 !important;
+			}
+		}
+
+	}
+}
+
+
+// ---------------------------------------------------------
+// Footer
+// ---------------------------------------------------------
+.footer {
+	width: 100%;
+	position: relative;
+	font-size: 11px;
+	text-align: left;
+	padding: $sitePadding 0 $sp2*2 0;
+	a {
+		border: 0 !important;
+	}
+}
+
+
+// ---------------------------------------------------------
+// Articles
+// ---------------------------------------------------------
+.article-date {
+	color: $c3;
+	font-size: $fs3;
+}
+.article-more {
+	border-color: transparent;
+}

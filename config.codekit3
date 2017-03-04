@@ -1,0 +1,7995 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "092C00B1-2A1E-4952-9E42-8F3D3825B407"
+		}
+	],
+"creatorBuild": "25504",
+"files": {
+	"\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.htaccess",
+		"oF": 0
+		},
+	"\/assets\/css\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/css\/main-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/images\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/favicon.ico",
+		"oF": 0
+		},
+	"\/assets\/sass\/_components.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_components.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/_helpers.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_helpers.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/_mixins.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/_normalize.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_normalize.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/_palette.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_palette.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/_variables.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_variables.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/components\/_animsition.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/css\/_animsition.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/components\/_elements.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/css\/_elements.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/components\/_grid.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/css\/_grid.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/components\/_navicon.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/css\/_navicon.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/components\/_typography.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/css\/_typography.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/main.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/main.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scripts\/animsition.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scripts\/min\/animsition.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/scripts\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scripts\/min\/main-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/content\/1-about\/about.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-about\/about.txt",
+		"oF": 0
+		},
+	"\/content\/2-blog\/20170303-did-nothing-cancel\/article.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-blog\/20170303-did-nothing-cancel\/article.txt",
+		"oF": 0
+		},
+	"\/content\/2-blog\/20170303-some-candy\/02.jpg": {
+		"ft": 16384,
+		"iS": 317805,
+		"oA": 0,
+		"oAP": "\/content\/2-blog\/20170303-some-candy\/02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-blog\/20170303-some-candy\/article.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-blog\/20170303-some-candy\/article.txt",
+		"oF": 0
+		},
+	"\/content\/2-blog\/20170303-under-normal-circumstances\/01.jpg": {
+		"ft": 16384,
+		"iS": 459211,
+		"oA": 0,
+		"oAP": "\/content\/2-blog\/20170303-under-normal-circumstances\/01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-blog\/20170303-under-normal-circumstances\/article.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-blog\/20170303-under-normal-circumstances\/article.txt",
+		"oF": 0
+		},
+	"\/content\/2-blog\/blog.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-blog\/blog.txt",
+		"oF": 0
+		},
+	"\/content\/error\/error.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/error\/error.txt",
+		"oF": 0
+		},
+	"\/content\/home\/home.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/home\/home.txt",
+		"oF": 0
+		},
+	"\/content\/site.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/site.txt",
+		"oF": 0
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/kirby\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/.travis.yml",
+		"oF": 0
+		},
+	"\/kirby\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/bootstrap.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/default.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/branches\/default.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/branches\/multilang.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/branches\/multilang\/content.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/field.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/branches\/multilang\/field.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/file.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/branches\/multilang\/file.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/language.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/branches\/multilang\/language.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/languages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/branches\/multilang\/languages.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/branches\/multilang\/page.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/site.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/branches\/multilang\/site.php",
+		"oF": 0
+		},
+	"\/kirby\/classmap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/classmap.php",
+		"oF": 0
+		},
+	"\/kirby\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/kirby\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/kirby\/composer.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/composer.lock",
+		"oF": 0
+		},
+	"\/kirby\/composer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/composer.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/asset.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/asset.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/avatar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/avatar.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/children.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/children.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/content.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/field.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/field.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/file.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/file.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/files.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/files.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/kirbytag.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/kirbytag.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/kirbytext.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/kirbytext.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/page.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/pages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/pages.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/role.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/role.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/roles.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/roles.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/site.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/site.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/user.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/user.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/users.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/core\/users.php",
+		"oF": 0
+		},
+	"\/kirby\/extensions\/methods.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/extensions\/methods.php",
+		"oF": 0
+		},
+	"\/kirby\/extensions\/tags.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/extensions\/tags.php",
+		"oF": 0
+		},
+	"\/kirby\/helpers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/helpers.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/css.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component\/css.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/js.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component\/js.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/markdown.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component\/markdown.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/response.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component\/response.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/smartypants.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component\/smartypants.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/snippet.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component\/snippet.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component\/template.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/thumb.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component\/thumb.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/tinyurl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/component\/tinyurl.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/errorhandling.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/errorhandling.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/event.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/event.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/blueprint.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/blueprint.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/component.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/component.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/controller.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/entry.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/entry.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/field.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/field.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/hook.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/hook.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/method.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/method.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/model.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/model.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/option.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/option.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/role.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/role.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/route.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/route.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/snippet.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/snippet.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/tag.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/tag.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/template.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/widget.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/registry\/widget.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/request.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/request.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/request\/params.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/request\/params.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/request\/path.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/request\/path.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/request\/query.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/request\/query.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/roots.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/roots.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/traits\/image.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/traits\/image.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/urls.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/kirby\/urls.php",
+		"oF": 0
+		},
+	"\/kirby\/lib\/pageextension.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/lib\/pageextension.php",
+		"oF": 0
+		},
+	"\/kirby\/lib\/structure.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/lib\/structure.php",
+		"oF": 0
+		},
+	"\/kirby\/license.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/license.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/phpunit.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/phpunit.xml",
+		"oF": 0
+		},
+	"\/kirby\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/system.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/system.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/ContentTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/ContentTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/content\/1-a\/a.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/content\/1-a\/a.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/content\/1-a\/test.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/kirby\/test\/etc\/content\/1-a\/min\/test-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/kirby\/test\/etc\/content\/2-b\/b.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/content\/2-b\/b.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/content\/error\/error.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/content\/error\/error.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/content\/home\/home.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/content\/home\/home.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/content\/site.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/content\/site.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/content\/tests\/field-name-test\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/content\/tests\/field-name-test\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/content\/tests\/file-extension-case-test\/a.JSON": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/kirby\/test\/etc\/content\/tests\/file-extension-case-test\/a-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/kirby\/test\/etc\/content\/tests\/file-extension-case-test\/b.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/kirby\/test\/etc\/content\/tests\/file-extension-case-test\/b-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/kirby\/test\/etc\/kirbytext\/gist\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/gist\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/gist\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/gist\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image-with-alt\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image-with-alt\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image-with-alt\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image-with-alt\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image-with-caption\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image-with-caption\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image-with-caption\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image-with-caption\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image-with-link-popup\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image-with-link-popup\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image-with-link-popup\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image-with-link-popup\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image-with-link\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image-with-link\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image-with-link\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image-with-link\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/image\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/image\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/input-with-placeholder\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/input-with-placeholder\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/input-with-placeholder\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/input-with-placeholder\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-class\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-class\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-class\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-class\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-link-as-text\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-link-as-text\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-link-as-text\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-link-as-text\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-popup\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-popup\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-popup\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-popup\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-rel\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-rel\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-rel\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-rel\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-target\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-target\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-with-target\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-with-target\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-without-text\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-without-text\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link-without-text\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link-without-text\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/link\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/link\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/multiline-parenthesis\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/multiline-parenthesis\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/multiline-parenthesis\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/multiline-parenthesis\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/non-matching-parenthesises\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/non-matching-parenthesises\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/non-matching-parenthesises\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/non-matching-parenthesises\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/script-tag\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/script-tag\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/script-tag\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/script-tag\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/tag-in-parenthesis\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/tag-in-parenthesis\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/tag-in-parenthesis\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/tag-in-parenthesis\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/tel\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/tel\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/tel\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/tel\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/twitter\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/twitter\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/twitter\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/twitter\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/vimeo\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/vimeo\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/vimeo\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/vimeo\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/youtube\/expected.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/youtube\/expected.html",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/kirbytext\/youtube\/test.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/kirbytext\/youtube\/test.txt",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/site\/accounts\/test.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/site\/accounts\/test.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/site\/cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/kirby\/test\/etc\/site\/cache",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/site\/config\/config.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/site\/config\/config.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/site\/models\/a.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/site\/models\/a.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/site\/plugins\/a\/a.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/site\/plugins\/a\/a.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/site\/plugins\/b.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/site\/plugins\/b.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/site\/tags\/a.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/site\/tags\/a.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/etc\/site\/tags\/b.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/etc\/site\/tags\/b.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/FieldTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/FieldTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/FilesTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/FilesTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/FileTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/FileTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/KirbyTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/KirbyTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/KirbytextTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/KirbytextTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/lib\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/lib\/bootstrap.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/lib\/testcase.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/lib\/testcase.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/ModelsTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/ModelsTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/PagesTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/PagesTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/PageTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/PageTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/RegistryEntryTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/RegistryEntryTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/RegistryTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/RegistryTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/RoleTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/RoleTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/RootsTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/RootsTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/SiteTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/SiteTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/UrlsTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/UrlsTest.php",
+		"oF": 0
+		},
+	"\/kirby\/test\/UsersTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/test\/UsersTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/autoload.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/autoload.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/composer\/autoload_classmap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/composer\/autoload_classmap.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/composer\/autoload_files.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/composer\/autoload_files.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/composer\/autoload_namespaces.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/composer\/autoload_namespaces.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/composer\/autoload_psr4.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/composer\/autoload_psr4.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/composer\/autoload_real.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/composer\/autoload_real.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/composer\/autoload_static.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/composer\/autoload_static.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/composer\/ClassLoader.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/composer\/ClassLoader.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/composer\/installed.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/kirby\/vendor\/composer\/installed-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/kirby\/vendor\/composer\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/composer\/LICENSE",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/.travis.yml",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/LICENSE.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/ParsedownExtra.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/ParsedownExtra.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/phpunit.xml.dist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/phpunit.xml.dist",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/bootstrap.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/abbreviation.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/abbreviation.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/abbreviation.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/abbreviation.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/compound_footnote.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/compound_footnote.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/compound_footnote.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/compound_footnote.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/definition_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/definition_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/definition_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/definition_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/footnote.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/footnote.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/footnote.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/footnote.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/markdown_inside_markup.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/markdown_inside_markup.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/markdown_inside_markup.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/markdown_inside_markup.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/special_attributes.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/special_attributes.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/special_attributes.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/data\/special_attributes.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown-extra\/test\/ParsedownExtraTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown-extra\/test\/ParsedownExtraTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/.travis.yml",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/LICENSE.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/Parsedown.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/Parsedown.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/phpunit.xml.dist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/phpunit.xml.dist",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/bootstrap.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/CommonMarkTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/CommonMarkTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/aesthetic_table.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/aesthetic_table.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/aesthetic_table.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/aesthetic_table.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/aligned_table.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/aligned_table.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/aligned_table.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/aligned_table.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/atx_heading.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/atx_heading.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/atx_heading.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/atx_heading.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/automatic_link.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/automatic_link.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/automatic_link.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/automatic_link.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/block-level_html.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/block-level_html.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/block-level_html.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/block-level_html.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/code_block.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/code_block.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/code_block.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/code_block.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/code_span.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/code_span.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/code_span.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/code_span.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_blockquote.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_blockquote.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_blockquote.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_blockquote.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_emphasis.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_emphasis.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_emphasis.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_emphasis.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/compound_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/deeply_nested_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/deeply_nested_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/deeply_nested_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/deeply_nested_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/em_strong.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/em_strong.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/em_strong.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/em_strong.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/email.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/email.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/email.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/email.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/emphasis.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/emphasis.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/emphasis.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/emphasis.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/escaping.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/escaping.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/escaping.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/escaping.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/fenced_code_block.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/fenced_code_block.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/fenced_code_block.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/fenced_code_block.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/horizontal_rule.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/horizontal_rule.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/horizontal_rule.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/horizontal_rule.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/html_comment.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/html_comment.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/html_comment.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/html_comment.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/html_entity.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/html_entity.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/html_entity.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/html_entity.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/image_reference.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/image_reference.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/image_reference.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/image_reference.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/image_title.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/image_title.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/image_title.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/image_title.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/implicit_reference.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/implicit_reference.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/implicit_reference.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/implicit_reference.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_link.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_link.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_link.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_link.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_link_title.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_link_title.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_link_title.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_link_title.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_title.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_title.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_title.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/inline_title.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/lazy_blockquote.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/lazy_blockquote.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/lazy_blockquote.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/lazy_blockquote.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/lazy_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/lazy_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/lazy_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/lazy_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/line_break.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/line_break.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/line_break.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/line_break.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/multiline_list_paragraph.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/multiline_list_paragraph.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/multiline_list_paragraph.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/multiline_list_paragraph.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/nested_block-level_html.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/nested_block-level_html.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/nested_block-level_html.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/nested_block-level_html.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/ordered_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/ordered_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/ordered_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/ordered_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/paragraph_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/paragraph_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/paragraph_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/paragraph_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/reference_title.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/reference_title.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/reference_title.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/reference_title.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/self-closing_html.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/self-closing_html.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/self-closing_html.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/self-closing_html.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/separated_nested_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/separated_nested_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/separated_nested_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/separated_nested_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/setext_header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/setext_header.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/setext_header.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/setext_header.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/simple_blockquote.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/simple_blockquote.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/simple_blockquote.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/simple_blockquote.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/simple_table.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/simple_table.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/simple_table.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/simple_table.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/span-level_html.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/span-level_html.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/span-level_html.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/span-level_html.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_dense_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_dense_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_dense_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_dense_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_html.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_html.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_html.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_html.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/sparse_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/special_characters.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/special_characters.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/special_characters.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/special_characters.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/strikethrough.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/strikethrough.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/strikethrough.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/strikethrough.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/strong_em.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/strong_em.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/strong_em.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/strong_em.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/tab-indented_code_block.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/tab-indented_code_block.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/tab-indented_code_block.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/tab-indented_code_block.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/table_inline_markdown.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/table_inline_markdown.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/table_inline_markdown.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/table_inline_markdown.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/text_reference.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/text_reference.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/text_reference.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/text_reference.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/unordered_list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/unordered_list.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/unordered_list.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/unordered_list.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/untidy_table.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/untidy_table.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/untidy_table.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/untidy_table.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/url_autolinking.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/url_autolinking.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/url_autolinking.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/url_autolinking.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/whitespace.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/whitespace.html",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/data\/whitespace.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/data\/whitespace.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/ParsedownTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/ParsedownTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/erusev\/parsedown\/test\/TestParsedown.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/erusev\/parsedown\/test\/TestParsedown.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/kirby\/vendor\/filp\/whoops\/LICENSE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/LICENSE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/ErrorException.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/ErrorException.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Formatter.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Formatter.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Frame.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Frame.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/FrameCollection.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/FrameCollection.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Inspector.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Inspector.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/CallbackHandler.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/CallbackHandler.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/Handler.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/Handler.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/HandlerInterface.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/HandlerInterface.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/JsonResponseHandler.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/JsonResponseHandler.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/PlainTextHandler.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/PlainTextHandler.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/PrettyPageHandler.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/PrettyPageHandler.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/XmlResponseHandler.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/XmlResponseHandler.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/clipboard.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/min\/clipboard.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/whoops.base.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/min\/whoops.base-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/zepto.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/min\/zepto.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/env_details.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/env_details.html.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/frame_code.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/frame_code.html.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/frame_list.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/frame_list.html.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/header.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/header.html.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/layout.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/layout.html.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Run.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Run.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/RunInterface.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/RunInterface.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Util\/HtmlDumperOutput.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Util\/HtmlDumperOutput.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Util\/Misc.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Util\/Misc.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Util\/SystemFacade.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Util\/SystemFacade.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Util\/TemplateHelper.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Util\/TemplateHelper.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/smartypants\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/kirby\/vendor\/getkirby\/smartypants\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/kirby\/vendor\/getkirby\/smartypants\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/getkirby\/smartypants\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/getkirby\/smartypants\/smartypants.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/smartypants\/smartypants.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/.travis.yml",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/bootstrap.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/helpers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/helpers.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/a.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/a.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/bitmask.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/bitmask.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/brick.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/brick.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/c.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/c.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/kirby\/vendor\/getkirby\/toolkit\/lib\/cache",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/cache.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/cache.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/collection.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/collection.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/cookie.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/cookie.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/crypt.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/crypt.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/data.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/data.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/database.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/database.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/database\/query.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/database\/query.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/db.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/db.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/detect.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/detect.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/dimensions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/dimensions.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/dir.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/dir.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/email.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/email.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/embed.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/embed.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/error.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/error.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/errorreporting.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/errorreporting.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/escape.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/escape.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/exif.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/exif.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/exif\/camera.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/exif\/camera.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/exif\/location.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/exif\/location.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/f.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/f.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/folder.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/folder.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/header.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/html.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/i.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/i.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/l.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/l.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/media.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/media.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/obj.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/obj.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/pagination.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/pagination.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/password.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/password.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/r.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/r.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/redirect.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/redirect.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/remote.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/remote.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/response.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/response.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/router.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/router.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/s.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/s.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/server.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/server.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/silo.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/silo.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/sql.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/sql.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/str.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/str.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/system.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/system.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/thumb.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/thumb.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/timer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/timer.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/toolkit.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/toolkit.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/tpl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/tpl.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/upload.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/upload.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/url.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/url.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/v.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/v.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/visitor.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/visitor.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/xml.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/xml.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/lib\/yaml.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/lib\/yaml.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/phpunit.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/phpunit.xml",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/ATest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/ATest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/BitmaskTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/BitmaskTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/CollectionTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/CollectionTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/CTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/CTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/DbTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/DbTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/DimensionsTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/DimensionsTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/DirTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/DirTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/EmbedTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/EmbedTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/ErrorReportingTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/ErrorReportingTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/etc\/content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/etc\/content.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/etc\/images\/favicon.png": {
+		"ft": 32768,
+		"iS": 428,
+		"oA": 0,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/etc\/images\/favicon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/etc\/system\/executable.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/etc\/system\/executable.sh",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/etc\/system\/nonexecutable.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/etc\/system\/nonexecutable.sh",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/FTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/FTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/HelpersTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/HelpersTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/HTMLTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/HTMLTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/lib\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/lib\/bootstrap.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/LTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/LTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/MediaTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/MediaTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/ObjTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/ObjTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/PaginationTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/PaginationTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/PasswordTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/PasswordTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/RTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/RTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/ServerTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/ServerTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/StrTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/StrTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/SystemTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/SystemTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/TimerTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/TimerTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/UrlTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/UrlTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/VisitorTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/VisitorTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/VTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/VTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/test\/XmlTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/test\/XmlTest.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/vendors\/abeautifulsite\/SimpleImage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/vendors\/abeautifulsite\/SimpleImage.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/vendors\/mimereader\/mimereader.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/vendors\/mimereader\/mimereader.php",
+		"oF": 0
+		},
+	"\/kirby\/vendor\/getkirby\/toolkit\/vendors\/yaml\/yaml.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/vendor\/getkirby\/toolkit\/vendors\/yaml\/yaml.php",
+		"oF": 0
+		},
+	"\/kirby\/views\/fatal.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kirby\/views\/fatal.php",
+		"oF": 0
+		},
+	"\/kompact.jpg": {
+		"ft": 16384,
+		"iS": 142773,
+		"oA": 0,
+		"oAP": "\/kompact.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/license.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/license.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/panel\/app\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/bootstrap.php",
+		"oF": 0
+		},
+	"\/panel\/app\/config\/routes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/config\/routes.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/assets.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/assets.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/auth.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/auth.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/autocomplete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/autocomplete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/avatars.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/avatars.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/dashboard.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/dashboard.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/error.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/error.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/field.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/field.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/files.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/files.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/installation.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/installation.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/options.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/options.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/pages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/pages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/search.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/search.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/subpages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/subpages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/users.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/controllers\/users.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/base\/base.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/base\/base.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/checkbox\/checkbox.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/checkbox\/checkbox.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/checkboxes\/checkboxes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/checkboxes\/checkboxes.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/date\/assets\/js\/date.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/panel\/app\/fields\/date\/assets\/js\/min\/date-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/date\/date.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/date\/date.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/datetime\/datetime.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/datetime\/datetime.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/email\/email.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/email\/email.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/filename\/filename.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/filename\/filename.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/headline\/assets\/css\/headline.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/headline\/assets\/css\/headline-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/app\/fields\/headline\/headline.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/headline\/headline.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/hidden\/hidden.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/hidden\/hidden.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/image\/assets\/css\/image.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/image\/assets\/css\/image-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/app\/fields\/image\/assets\/js\/image.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/panel\/app\/fields\/image\/assets\/js\/min\/image-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/image\/image.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/image\/image.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/info\/info.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/info\/info.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/input\/input.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/input\/input.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/inputlist\/inputlist.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/inputlist\/inputlist.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/line\/line.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/line\/line.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/number\/number.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/number\/number.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/page\/page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/page\/page.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/password\/password.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/password\/password.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/radio\/radio.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/radio\/radio.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/select\/select.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/select\/select.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/assets\/css\/structure.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/assets\/css\/structure-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/app\/fields\/structure\/assets\/js\/structure.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/panel\/app\/fields\/structure\/assets\/js\/min\/structure-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/structure\/controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/controller.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/forms\/add.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/forms\/add.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/forms\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/forms\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/forms\/update.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/forms\/update.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/structure.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/structure.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/styles\/items.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/styles\/items.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/styles\/table.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/styles\/table.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/template.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/views\/add.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/views\/add.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/views\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/views\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/views\/update.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/structure\/views\/update.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/tags\/tags.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/tags\/tags.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/tel\/tel.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/tel\/tel.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/text\/assets\/css\/counter.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/text\/assets\/css\/counter-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/app\/fields\/text\/assets\/js\/counter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/panel\/app\/fields\/text\/assets\/js\/min\/counter-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/text\/text.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/text\/text.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/assets\/js\/editor.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/panel\/app\/fields\/textarea\/assets\/js\/min\/editor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/textarea\/buttons.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/textarea\/buttons.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/textarea\/controller.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/forms\/email.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/textarea\/forms\/email.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/forms\/link.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/textarea\/forms\/link.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/textarea.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/textarea\/textarea.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/views\/email.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/textarea\/views\/email.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/views\/link.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/textarea\/views\/link.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/time\/time.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/time\/time.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/title\/title.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/title\/title.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/toggle\/toggle.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/toggle\/toggle.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/url\/assets\/js\/url.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/panel\/app\/fields\/url\/assets\/js\/min\/url-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/url\/url.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/url\/url.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/user\/user.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/fields\/user\/user.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/auth\/login.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/auth\/login.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/avatars\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/avatars\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/editor\/email.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/editor\/email.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/editor\/link.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/editor\/link.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/files\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/files\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/files\/edit.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/files\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/installation\/check.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/installation\/check.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/installation\/signup.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/installation\/signup.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/add.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/pages\/add.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/pages\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/edit.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/pages\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/pages\/template.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/toggle.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/pages\/toggle.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/url.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/pages\/url.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/users\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/users\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/users\/user.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/forms\/users\/user.php",
+		"oF": 0
+		},
+	"\/panel\/app\/helpers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/helpers.php",
+		"oF": 0
+		},
+	"\/panel\/app\/layouts\/app.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/layouts\/app.php",
+		"oF": 0
+		},
+	"\/panel\/app\/layouts\/base.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/layouts\/base.php",
+		"oF": 0
+		},
+	"\/panel\/app\/layouts\/fatal.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/layouts\/fatal.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/breadcrumb.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/breadcrumb.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/languages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/languages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/menu.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/menu.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/meta.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/meta.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar\/file.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar\/file.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar\/files.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar\/files.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar\/menu.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar\/menu.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar\/subpage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar\/subpage.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar\/subpages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar\/subpages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pagination.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/pagination.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/search.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/search.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/subpages\/subpage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/subpages\/subpage.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/template.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/uploader.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/snippets\/uploader.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/autocomplete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/autocomplete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/collections\/children.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/collections\/children.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/collections\/files.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/collections\/files.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/collections\/users.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/collections\/users.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/controllers\/base.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/controllers\/base.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/controllers\/field.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/controllers\/field.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/errorhandling.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/errorhandling.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/event.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/event.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/exceptions\/permissions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/exceptions\/permissions.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/form.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/form.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/form\/fieldoptions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/form\/fieldoptions.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/form\/plugins.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/form\/plugins.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/installer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/installer.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/layout.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/layout.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/login.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/login.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/file.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/file.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/file\/menu.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/file\/menu.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/file\/options.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/file\/options.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/file\/ui.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/file\/ui.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/addbutton.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/addbutton.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/field.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/field.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/fields.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/fields.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/files.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/files.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/options.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/options.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/pages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/pages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/changes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/changes.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/menu.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/menu.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/options.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/options.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/sidebar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/sidebar.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/sorter.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/sorter.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/ui.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/ui.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/uploader.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/uploader.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/site.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/site.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/site\/options.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/site\/options.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/site\/ui.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/site\/ui.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user\/avatar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user\/avatar.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user\/avatar\/ui.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user\/avatar\/ui.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user\/blueprint.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user\/blueprint.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user\/history.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user\/history.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user\/ui.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user\/ui.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/roots.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/roots.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/search.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/search.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/snippet.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/snippet.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/structure.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/structure.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/structure\/store.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/structure\/store.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/topbar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/topbar.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/translation.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/translation.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/upload.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/upload.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/urls.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/urls.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/view.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/view.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/widgets.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/src\/panel\/widgets.php",
+		"oF": 0
+		},
+	"\/panel\/app\/topbars\/error.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/topbars\/error.php",
+		"oF": 0
+		},
+	"\/panel\/app\/topbars\/user.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/topbars\/user.php",
+		"oF": 0
+		},
+	"\/panel\/app\/translations\/ar\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ar\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ar\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ar\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/bg\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/bg\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/bg\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/bg\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ca\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ca\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ca\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ca\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/cs\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/cs\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/cs\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/cs\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/da\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/da\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/da\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/da\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/de\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/de\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/de\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/de\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/el\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/el\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/el\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/el\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/en\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/en\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/en\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/en\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/es_419\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/es_419\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/es_419\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/es_419\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/es_ES\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/es_ES\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/es_ES\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/es_ES\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fa\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fa\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fa\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fa\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fi\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fi\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fi\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fi\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fr\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fr\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fr\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fr\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/hu\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/hu\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/hu\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/hu\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/id\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/id\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/id\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/id\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/it\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/it\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/it\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/it\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ja\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ja\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ja\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ja\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ko\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ko\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ko\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ko\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/nb\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/nb\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/nb\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/nb\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/nl\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/nl\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/nl\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/nl\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pl\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pl\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pl\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pl\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pt_BR\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pt_BR\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pt_BR\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pt_BR\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pt_PT\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pt_PT\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pt_PT\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pt_PT\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/panel\/app\/translations\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/panel\/app\/translations\/ro\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ro\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ro\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ro\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ru\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ru\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ru\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ru\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/sv_SE\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/sv_SE\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/sv_SE\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/sv_SE\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/tr\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/tr\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/tr\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/tr\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/zh_CN\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/zh_CN\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/zh_CN\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/zh_CN\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/zh_TW\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/zh_TW\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/zh_TW\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/zh_TW\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/views\/auth\/block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/auth\/block.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/auth\/error.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/auth\/error.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/auth\/login.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/auth\/login.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/avatars\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/avatars\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/dashboard\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/dashboard\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/error\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/error\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/error\/modal.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/error\/modal.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/files\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/files\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/files\/edit.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/files\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/files\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/files\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/installation\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/installation\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/options\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/options\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/add.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/pages\/add.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/pages\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/edit.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/pages\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/pages\/template.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/toggle.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/pages\/toggle.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/url.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/pages\/url.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/search\/results.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/search\/results.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/subpages\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/subpages\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/users\/delete.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/users\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/users\/edit.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/users\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/users\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/views\/users\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/account\/account.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/account\/account.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/account\/account.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/account\/account.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/history\/history.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/history\/history.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/history\/history.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/history\/history.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/license\/license.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/license\/license.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/license\/license.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/license\/license.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/pages\/pages.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/pages\/pages.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/pages\/pages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/pages\/pages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/site\/site.html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/site\/site.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/site\/site.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/app\/widgets\/site\/site.php",
+		"oF": 0
+		},
+	"\/panel\/assets\/css\/form.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/css\/form.min-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/assets\/css\/panel.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/css\/panel.min-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/assets\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-400-italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-400-italic.woff",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-400-italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-400-italic.woff2",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-400.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-400.woff",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-400.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-400.woff2",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-600.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-600.woff",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-600.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-600.woff2",
+		"oF": 0
+		},
+	"\/panel\/assets\/images\/avatar.png": {
+		"ft": 32768,
+		"iS": 324,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/avatar.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/hint.arrows.png": {
+		"ft": 32768,
+		"iS": 549,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/hint.arrows.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/loader.black.gif": {
+		"ft": 4194304,
+		"iS": 718,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/loader.black.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/loader.white.gif": {
+		"ft": 4194304,
+		"iS": 718,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/loader.white.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/pattern.png": {
+		"ft": 32768,
+		"iS": 116,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/pattern.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/placeholder.png": {
+		"ft": 32768,
+		"iS": 98,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/placeholder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/js\/dist\/app.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/panel\/assets\/js\/dist\/min\/app.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/assets\/js\/dist\/form.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/panel\/assets\/js\/dist\/min\/form.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/assets\/js\/dist\/panel.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/panel\/assets\/js\/dist\/min\/panel.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/index.php",
+		"oF": 0
+		},
+	"\/panel\/license.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/panel\/license.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/panel\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/panel\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/site\/accounts\/.logins": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/accounts\/.logins",
+		"oF": 0
+		},
+	"\/site\/accounts\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/accounts\/index.html",
+		"oF": 0
+		},
+	"\/site\/accounts\/joroyordanov.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/accounts\/joroyordanov.php",
+		"oF": 0
+		},
+	"\/site\/blueprints\/blog.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/blog.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/default.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/default.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/error.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/error.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/home.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/home.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/project.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/project.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/projects.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/projects.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/site.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/site.yml",
+		"oF": 0
+		},
+	"\/site\/cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/site\/cache",
+		"oF": 0
+		},
+	"\/site\/config\/config.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/config\/config.php",
+		"oF": 0
+		},
+	"\/site\/controllers\/blog.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/controllers\/blog.php",
+		"oF": 0
+		},
+	"\/site\/plugins\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/plugins\/index.html",
+		"oF": 0
+		},
+	"\/site\/snippets\/footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/footer.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/header.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/listing.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/listing.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/menu.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/menu.php",
+		"oF": 0
+		},
+	"\/site\/templates\/blog.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/templates\/blog.php",
+		"oF": 0
+		},
+	"\/site\/templates\/default.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/templates\/default.php",
+		"oF": 0
+		},
+	"\/site\/templates\/home.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/templates\/home.php",
+		"oF": 0
+		},
+	"\/site\/templates\/project.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/templates\/project.php",
+		"oF": 0
+		},
+	"\/thumbs\/about\/bgr-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2583,
+		"oA": 0,
+		"oAP": "\/thumbs\/about\/bgr-75x75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/blog\/did-nothing-cancel\/01-400x266.jpg": {
+		"ft": 16384,
+		"iS": 26111,
+		"oA": 0,
+		"oAP": "\/thumbs\/blog\/did-nothing-cancel\/01-400x266.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/blog\/did-nothing-cancel\/01-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2834,
+		"oA": 0,
+		"oAP": "\/thumbs\/blog\/did-nothing-cancel\/01-75x75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/blog\/some-candy\/02-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2449,
+		"oA": 0,
+		"oAP": "\/thumbs\/blog\/some-candy\/02-75x75.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/thumbs\/blog\/under-normal-circumstances\/01-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2834,
+		"oA": 0,
+		"oAP": "\/thumbs\/blog\/under-normal-circumstances\/01-75x75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/home\/background-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2195,
+		"oA": 0,
+		"oAP": "\/thumbs\/home\/background-75x75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-520x325.jpg": {
+		"ft": 16384,
+		"iS": 41588,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-520x325.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-520x347.jpg": {
+		"ft": 16384,
+		"iS": 43970,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-520x347.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2952,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-75x75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-a\/1mvdinkcd0w-eris-setiawan-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2820,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-a\/1mvdinkcd0w-eris-setiawan-75x75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-a\/1trra_xcehe-ken-wu-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2978,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-a\/1trra_xcehe-ken-wu-75x75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-a\/khgqqifs6ve-elijah-henderson-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2926,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-a\/khgqqifs6ve-elijah-henderson-75x75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-b\/000_7_krux1hsxm-lindsay-henwood-520x325.jpg": {
+		"ft": 16384,
+		"iS": 51057,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-b\/000_7_krux1hsxm-lindsay-henwood-520x325.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-b\/000_7_krux1hsxm-lindsay-henwood-520x347.jpg": {
+		"ft": 16384,
+		"iS": 54400,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-b\/000_7_krux1hsxm-lindsay-henwood-520x347.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-c\/000_klvm9ezgkqs-david-schap-520x325.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-c\/000_klvm9ezgkqs-david-schap-520x325.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-c\/000_klvm9ezgkqs-david-schap-520x326.jpg": {
+		"ft": 16384,
+		"iS": 64670,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-c\/000_klvm9ezgkqs-david-schap-520x326.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-d\/000_d9yog5zp-oq-robert-wiedemann-520x325.jpg": {
+		"ft": 16384,
+		"iS": 13966,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-d\/000_d9yog5zp-oq-robert-wiedemann-520x325.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-d\/000_d9yog5zp-oq-robert-wiedemann-520x347.jpg": {
+		"ft": 16384,
+		"iS": 14478,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-d\/000_d9yog5zp-oq-robert-wiedemann-520x347.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-e\/000_m4kpa7nc-l0-neven-krcmarek-520x325.jpg": {
+		"ft": 16384,
+		"iS": 45408,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-e\/000_m4kpa7nc-l0-neven-krcmarek-520x325.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/projects\/project-e\/000_m4kpa7nc-l0-neven-krcmarek-520x347.jpg": {
+		"ft": 16384,
+		"iS": 47650,
+		"oA": 0,
+		"oAP": "\/thumbs\/projects\/project-e\/000_m4kpa7nc-l0-neven-krcmarek-520x347.jpg",
+		"oF": 0,
+		"opt": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 500032471,
+	"displayValue": "kompact",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "brackets_orange"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', 'avoid-escape'"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost\/Produkts\/kompact\/",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-ck.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

@@ -1,0 +1,24 @@
+title: Blog
+
+files: false
+
+pages:
+  template: article
+  sort: flip
+  num: date
+
+options:
+  template: false
+  status: false
+
+icon: newspaper-o
+
+fields:
+  title:
+    label: Title
+    type: title
+    required: true
+
+  text:
+    label: Text
+    type: textarea

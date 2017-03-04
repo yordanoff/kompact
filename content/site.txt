@@ -1,0 +1,17 @@
+Title: Kompact
+
+----
+
+Author: Joro Yordanov
+
+----
+
+Description: Kompact - a Kirby CMS theme.
+
+----
+
+Copyright: © (date: Year) (link: http://themes.yordanoff.net/kompact/ text: Kompact Theme popup: yes) for (link: http://getkirby.com text: Kirby popup: yes)
+
+----
+
+Footer: Build something cool. For project inquiries just (email:joro@yordanoff.net text: drop me a line).

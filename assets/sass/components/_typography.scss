@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lekton');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+$sans-serif: 'Muli', sans-serif;
+$serif: 'Droid Serif', serif;
+$mono:  'Lekton', monospace;
+
+$ff1: $sans-serif;
+$ff2: $serif;
+$ff3: $mono;
+
+html {
+	font-family: $ff1;
+	font-size: calc(1em + .6vw);
+	line-height: 1.4;
+	font-weight: 300;
+}
+
+$fs1: 2rem;
+$fs2: 1.6rem;
+$fs3: .6rem;
+
+// --------------------------------------------------
+// # Headings
+// --------------------------------------------------
+h1, h2, h3, h4, h5, h6 {
+	font-family: $ff2;
+	font-weight: bold;
+	color: $c1;
+	margin: 2rem 0 1rem 0;
+	padding: 0;
+	color: $ca1;
+	color: $c1;
+}
+
+.h1 {
+	font-size: $fs2;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+p + p {
+	margin-top: 20px;
+}

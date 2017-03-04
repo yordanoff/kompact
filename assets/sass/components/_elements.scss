@@ -1,0 +1,85 @@
+::selection {
+	background: $ca1;
+	color: #fff;
+}
+
+// -------------------------------------------------------
+// Separators
+// -------------------------------------------------------
+hr {
+	height: 1px;
+	border: 0;
+	margin: rem-calc(40px 0);
+	background: rgba($cStroke,.1);
+	&.clean {
+		background: none;
+	}
+	&.small {
+		margin: -10px auto !important;
+		background: rgba($ca1,.3);
+		width: 100px;
+	}
+}
+
+// -------------------------------------------------------
+// Quote & Pre
+// -------------------------------------------------------
+blockquote {
+	margin: $sp2 auto;
+	padding: $sp2;
+	display: block;
+	line-height: 1.5;
+	font-family: $ff2;
+	text-align: center;
+	color: $c1;
+	border-radius: 6px;
+
+	p:first-child {
+		margin-top: 0;
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	&:before,
+	&:after {
+		content: " • ";
+		display: block;
+		font-size: 60%;
+		color: $ca1;
+	}
+	&:after {
+		margin-top: 16px;
+		content: " • ";
+		@media #{$bm} {
+			margin-top: 10px;
+		}
+	}
+
+	span {
+		font-size: 16px;
+		color: $c2;
+	}
+}
+
+pre {
+	padding: rem-calc(30px 40px);
+	color: $c1;
+	font-family: $ff3;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.5em;
+	@media #{$bm} {
+		padding: rem-calc(20px);
+	}
+	p:first-child {
+		margin-top: 0;
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+code {
+	font-family: $ff3;
+}

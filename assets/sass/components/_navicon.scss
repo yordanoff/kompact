@@ -1,0 +1,80 @@
+$bar-width: 20px;
+$bar-height: 2px;
+$bar-spacing: 5px;
+
+.hamburger-container {
+	padding: 7px 6px;
+	padding: 0;
+	float: right;
+	cursor: pointer;
+	margin-top: $bar-spacing+3;
+}
+
+.hamburger-menu {
+	width: $bar-width;
+	height: $bar-height + $bar-spacing*2;
+	border-radius: 10px;
+}
+
+.bar,
+.bar:after,
+.bar:before {
+	width: $bar-width;
+	height: $bar-height;
+	border-radius: 10px;
+}
+
+.bar {
+	position: relative;
+	transform: translateY($bar-spacing);
+	background: rgba($c1,1);
+	transition: all 0ms 300ms;
+	border-radius: 10px;
+	&.animate {
+		background: rgba($c1,0);
+	}
+}
+
+.bar:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: $bar-spacing;
+	background: rgba($c1,1);
+	transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: $bar-spacing;
+	background: rgba($c1,1);
+	transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+
+	// opacity: 0;
+}
+
+.bar.animate:after {
+	top: 0;
+	transform: rotate(45deg);
+	transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+
+	opacity: 1;
+}
+
+.bar.animate:before {
+	bottom: 0;
+	transform: rotate(-45deg);
+	transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-container .hamburger-menu .bar.animate {
+	background: transparent !important;
+}
+.hamburger-container .hamburger-menu .bar.animate {
+	&:before,
+	&:after {
+		background: $c1;
+	}
+}

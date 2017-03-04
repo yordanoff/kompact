@@ -1,0 +1,13 @@
+Title: Home
+
+----
+
+Intro: 
+
+----
+
+Text: 
+
+## Hello, get me for free.
+
+Kompact is a free (link: http://getkirby.com text: Kirby CMS popup: yes) theme. Build with a minimalistic approach in mind, so you can focus on the content. (link: https://gum.co/kompact text: Download popup: yes) it for free or just fork it on (link: http://bit.ly/2lF563L text: Github popup: yes). You can also check out some of my other (link: http://themes.yordanoff.net text: themes popup: yes).
