@@ -11,14 +11,6 @@ hr {
 	border: 0;
 	margin: rem-calc(40px 0);
 	background: rgba($cStroke,.1);
-	&.clean {
-		background: none;
-	}
-	&.small {
-		margin: -10px auto !important;
-		background: rgba($ca1,.3);
-		width: 100px;
-	}
 }
 
 // -------------------------------------------------------
@@ -28,11 +20,11 @@ blockquote {
 	margin: $sp2 auto;
 	padding: $sp2;
 	display: block;
-	line-height: 1.5;
 	font-family: $ff2;
 	text-align: center;
 	color: $c1;
-	border-radius: 6px;
+	font-size: $fs2;
+	font-weight: bold;
 
 	p:first-child {
 		margin-top: 0;
@@ -45,7 +37,6 @@ blockquote {
 	&:after {
 		content: " • ";
 		display: block;
-		font-size: 60%;
 		color: $ca1;
 	}
 	&:after {
@@ -68,7 +59,6 @@ pre {
 	font-family: $ff3;
 	font-size: 12px;
 	font-weight: bold;
-	line-height: 1.5em;
 	@media #{$bm} {
 		padding: rem-calc(20px);
 	}

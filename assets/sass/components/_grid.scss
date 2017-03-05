@@ -47,10 +47,8 @@ img {
 
 .wrap-fluid {
 	float: left;
-	margin: 0 auto;
 	margin: 0 $sitePadding;
-
-	width: 40%;
+	width: 50%;
 	@media #{$bm} {
 		width: auto;
 	}
