@@ -1,12 +1,13 @@
 # Kompact - a Free Kirby CMS Theme
 
-![Kompact](http://themes.yordanoff.net/kompact/kompact.jpg)
+![Kompact](http://themes.yordanoff.net/kompact/kompact-01.gif)
+![Kompact](http://themes.yordanoff.net/kompact/kompact-02.gif)
 
 Kompact is a **Free** [Kirby CMS](http://getkirby.com) theme. Build with a minimalistic approach in mind, so you can focus on the content.
 
 **[Download](https://gum.co/kompact)** it for free.
 
-You can also check out some of my [other themes](http://themes.yordanoff.net).
+You can also check out my [other Kirby CMS themes](http://themes.yordanoff.net).
 
 # Demo
 [Live demo](http://themes.yordanoff.net/kompact)
