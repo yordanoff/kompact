@@ -1,7 +1,13 @@
 $(document).ready(function() {
 
+	// --------------------------------------------------
+	// Check if browser JS is enabled
+	// --------------------------------------------------
 	$('html').removeClass('no-js').addClass('js');
 
+	// --------------------------------------------------
+	// If JS is enabled - run page transitions
+	// --------------------------------------------------
 	$(".js #container").animsition({
 		inClass: 'fade-in-up-sm',
 		outClass: 'fade-out-up-sm',
@@ -21,9 +27,6 @@ $(document).ready(function() {
 		 kompactInit();
     });
 
-	if($('html').hasClass('no-js'))
-		kompactInit();
-
 }); // document.ready
 
 
@@ -38,6 +41,7 @@ function kompactInit() {
 			$('.menu, .bar').addClass('animate');
 		}
 	});
+	
 	// --------------------------------------------------
 	// Offcanvas Navigation
 	// --------------------------------------------------
