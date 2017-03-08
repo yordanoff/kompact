@@ -7,15 +7,15 @@
  */
 
 // .main,
-#container,
-.animsition,
-.animsition-overlay {
+.js #container,
+.js .animsition,
+.js .animsition-overlay {
   position: relative;
   opacity: 0;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
-.an {
+.js .an {
     -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
     animation-duration: 1s;
@@ -24,14 +24,14 @@
 /**
  * overlay option
  */
-.animsition-overlay-slide {
+.js .animsition-overlay-slide {
   position: fixed;
   z-index: 1000;
   width: 100%;
   height: 100%;
 }
-.animsition-overlay-slide,
-.bg-init {
+.js .animsition-overlay-slide,
+.js .bg-init {
     background-color: $bgr1;
 }
 /* loading option */

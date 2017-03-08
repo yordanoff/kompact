@@ -7,11 +7,9 @@
 }
 
 html {
-	overflow-x: hidden !important;
 	background: $bgr1;
 }
 body {
-	overflow-x: hidden !important;
 	color: $c2;
 }
 
@@ -23,7 +21,7 @@ img {
 // Anchors
 // ---------------------------------------------------------
 a {
-	color: $c1 !important;
+	color: $c1;
 	text-decoration: none;
 	border-bottom: 3px solid $ca1;
 	transition: .2s all ease;
@@ -41,6 +39,9 @@ a {
 	&:visited {
 		color: inherit;
 	}
+}
+#canvas a {
+	color: $c1;
 }
 // ---------------------------------------------------------
 // Offcanvas Menu
@@ -69,6 +70,43 @@ aside {
 	padding: 20px;
 	z-index: -1;
 	background: $c1;
+}
+
+
+.no-js {
+	.nav-open {
+		overflow: auto;
+	}
+	aside {
+		position: absolute;
+		width: auto;
+		height: auto;
+		top: 0;
+		right: 0;
+		bottom: auto;
+		z-index: 1100;
+		padding: $sitePadding/2 $sitePadding $sitePadding/2 0;
+		background: none;
+		.menu {
+			float: right;
+			color: $c1;
+			right: $sitePadding;
+			background: none;
+			margin-top: 5px;
+			li {
+				float: left;
+				padding: 0;
+			}
+			a {
+				color: $c1;
+				float: left;
+				padding: 0 0 0 $sp2;
+			}
+		}
+	}
+	.header .hamburger-container {
+		display: none;
+	}
 }
 
 // ---------------------------------------------------------
@@ -104,7 +142,7 @@ aside {
 	}
 }
 
-.menu {
+aside ul.menu {
 	display: block;
 	position: relative;
 	padding: 0;
@@ -113,23 +151,23 @@ aside {
 	font-family: $ff1;
 	line-height: 1;
 	color: #fff;
-
 	li {
 		list-style: none;
 		position: relative;
 		padding: 0;
 		margin: 0;
 		display: block;
+		color: #fff;
 		a {
 			text-align: left;
 			padding: $sp2/2;
 			display: inline-block;
 			border: 0;
 			font-size: $fs3;
-			color: #fff !important;
+			color: #fff;
 			&:hover,
 			&.active {
-				color: $ca1 !important;
+				color: $ca1;
 			}
 		}
 

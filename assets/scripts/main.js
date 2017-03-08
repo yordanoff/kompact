@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	$("#container").animsition({
+
+	$('html').removeClass('no-js').addClass('js');
+
+	$(".js #container").animsition({
 		inClass: 'fade-in-up-sm',
 		outClass: 'fade-out-up-sm',
 		inDuration: 400,
@@ -17,6 +20,10 @@ $(document).ready(function() {
 	}).one('animsition.inStart',function(){
 		 kompactInit();
     });
+
+	if($('html').hasClass('no-js'))
+		kompactInit();
+
 }); // document.ready
 
 
@@ -36,6 +43,7 @@ function kompactInit() {
 	// --------------------------------------------------
 	$('.hamburger-menu').on('click', function(e){
 		e.preventDefault();
+		$('html, body').animate({ scrollTop: 0 }, 'fast');
 		$('html').toggleClass('nav-open');
 	});
 } // kompactInit

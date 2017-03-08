@@ -3671,6 +3671,22 @@
 		"oAP": "\/kirby\/views\/fatal.php",
 		"oF": 0
 		},
+	"\/kompact-01.gif": {
+		"ft": 4194304,
+		"iS": 415203,
+		"oA": 0,
+		"oAP": "\/kompact-01.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/kompact-02.gif": {
+		"ft": 4194304,
+		"iS": 4135991,
+		"oA": 0,
+		"oAP": "\/kompact-02.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/kompact.jpg": {
 		"ft": 16384,
 		"iS": 142773,
@@ -5592,6 +5608,24 @@
 		"ft": 4096,
 		"oA": 0,
 		"oAP": "\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/readmekirby.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/readmekirby.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
