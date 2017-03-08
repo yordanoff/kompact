@@ -85,12 +85,12 @@ aside {
 		right: 0;
 		bottom: auto;
 		z-index: 1100;
-		padding: $sitePadding/2 $sitePadding $sitePadding/2 0;
+		padding: $sp1/2 $sp1 $sp1/2 0;
 		background: none;
 		.menu {
 			float: right;
 			color: $c1;
-			right: $sitePadding;
+			right: $sp1;
 			background: none;
 			margin-top: 5px;
 			li {
@@ -117,7 +117,7 @@ aside {
 	z-index: 1000;
 	width: 100%;
 	margin: 0;
-	padding: $sitePadding/2 0;
+	padding: $sp1/2 0;
 	margin-bottom: $sp2;
 	font-size: $fs3;
 	color: $c1;
@@ -137,7 +137,7 @@ aside {
 		z-index: 1100;
 		position: fixed;
 		position: absolute;
-		right: $sitePadding;
+		right: $sp1;
 		margin-top: 1px;
 	}
 }
@@ -183,7 +183,7 @@ aside ul.menu {
 	position: relative;
 	font-size: 11px;
 	text-align: left;
-	padding: $sitePadding 0 $sp2*2 0;
+	padding: $sp1 0 $sp2*2 0;
 	a {
 		border: 0 !important;
 	}
