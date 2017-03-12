@@ -15,6 +15,44 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/_previews\/kompact-00.gif": {
+		"ft": 4194304,
+		"iS": 3776187,
+		"oA": 0,
+		"oAP": "\/_previews\/kompact-00.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_previews\/kompact-02.gif": {
+		"ft": 4194304,
+		"iS": 4135991,
+		"oA": 0,
+		"oAP": "\/_previews\/kompact-02.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_previews\/kompact-03.gif": {
+		"ft": 4194304,
+		"iS": 415203,
+		"oA": 0,
+		"oAP": "\/_previews\/kompact-03.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_previews\/kompact.jpg": {
+		"ft": 16384,
+		"iS": 142773,
+		"oA": 0,
+		"oAP": "\/_previews\/kompact.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/avatars\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/avatars\/index.html",
+		"oF": 0
+		},
 	"\/assets\/css\/main.css": {
 		"aP": 0,
 		"bl": 0,
@@ -3671,30 +3709,6 @@
 		"oAP": "\/kirby\/views\/fatal.php",
 		"oF": 0
 		},
-	"\/kompact-01.gif": {
-		"ft": 4194304,
-		"iS": 415203,
-		"oA": 0,
-		"oAP": "\/kompact-01.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/kompact-02.gif": {
-		"ft": 4194304,
-		"iS": 4135991,
-		"oA": 0,
-		"oAP": "\/kompact-02.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/kompact.jpg": {
-		"ft": 16384,
-		"iS": 142773,
-		"oA": 0,
-		"oAP": "\/kompact.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/license.md": {
 		"cS": 0,
 		"eF": 1,
@@ -5616,24 +5630,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/readmekirby.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/readmekirby.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/site\/accounts\/.logins": {
 		"ft": 8192,
 		"oA": 2,
@@ -5650,6 +5646,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/accounts\/joroyordanov.php",
+		"oF": 0
+		},
+	"\/site\/blueprints\/article.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/article.yml",
 		"oF": 0
 		},
 	"\/site\/blueprints\/blog.yml": {
@@ -5771,6 +5773,22 @@
 		"iS": 2583,
 		"oA": 0,
 		"oAP": "\/thumbs\/about\/bgr-75x75.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/assets\/avatars\/joroyordanov-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5142,
+		"oA": 0,
+		"oAP": "\/thumbs\/assets\/avatars\/joroyordanov-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/thumbs\/assets\/avatars\/joroyordanov-50x50.jpg": {
+		"ft": 16384,
+		"iS": 1520,
+		"oA": 0,
+		"oAP": "\/thumbs\/assets\/avatars\/joroyordanov-50x50.jpg",
 		"oF": 0,
 		"opt": 0
 		},
