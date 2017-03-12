@@ -1,0 +1,21 @@
+title: Article
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  title
+
+  date:
+    icon: calendar
+    label: Date
+    type: date
+    format: LL
+    placeholder: Select a date…
+    default: today
+    required: true
+
+  text:
+    label: Text
+    type: textarea
