@@ -15,11 +15,11 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/_previews\/kompact-00.gif": {
+	"\/_previews\/kompact-01.gif": {
 		"ft": 4194304,
 		"iS": 3776187,
 		"oA": 0,
-		"oAP": "\/_previews\/kompact-00.gif",
+		"oAP": "\/_previews\/kompact-01.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -5612,6 +5612,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/readme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/readme.html",
+		"oF": 0
+		},
 	"\/readme.md": {
 		"cS": 0,
 		"eF": 1,
@@ -5760,12 +5766,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/templates\/home.php",
-		"oF": 0
-		},
-	"\/site\/templates\/project.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/site\/templates\/project.php",
 		"oF": 0
 		},
 	"\/thumbs\/about\/bgr-75x75.jpg": {
