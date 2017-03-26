@@ -8,6 +8,7 @@ Kompact is a **Free** [Kirby CMS](http://getkirby.com) theme, built with a minim
 * Minimal design with focus on *typography* and *white space*
 * Responsive typography
 * Smooth page transitions
+* Choose between Off-Canvas and Standard navigation
 * CodeKit config file included
 * No-JS fallbacks
 * SCSS structure for easy customisation of:
