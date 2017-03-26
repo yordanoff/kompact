@@ -22,3 +22,11 @@ fields:
   copyright:
     label: Copyright
     type:  textarea
+
+  navigationtype:
+    label: Navigation Type
+    type: radio
+    default: navoffcanvas
+    options:
+      navoffcanvas: Off-Canvas
+      navstandard: Standard

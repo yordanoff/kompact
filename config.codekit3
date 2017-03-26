@@ -15,38 +15,6 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/_previews\/kompact-01.gif": {
-		"ft": 4194304,
-		"iS": 3776187,
-		"oA": 0,
-		"oAP": "\/_previews\/kompact-01.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_previews\/kompact-02.gif": {
-		"ft": 4194304,
-		"iS": 4135991,
-		"oA": 0,
-		"oAP": "\/_previews\/kompact-02.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_previews\/kompact-03.gif": {
-		"ft": 4194304,
-		"iS": 415203,
-		"oA": 0,
-		"oAP": "\/_previews\/kompact-03.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_previews\/kompact.jpg": {
-		"ft": 16384,
-		"iS": 142773,
-		"oA": 0,
-		"oAP": "\/_previews\/kompact.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/assets\/avatars\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -5612,13 +5580,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/readme.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/readme.html",
-		"oF": 0
-		},
-	"\/readme.md": {
+	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -5627,7 +5589,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/readme.html",
+		"oAP": "\/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -5768,181 +5730,11 @@
 		"oAP": "\/site\/templates\/home.php",
 		"oF": 0
 		},
-	"\/thumbs\/about\/bgr-75x75.jpg": {
-		"ft": 16384,
-		"iS": 2583,
-		"oA": 0,
-		"oAP": "\/thumbs\/about\/bgr-75x75.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/assets\/avatars\/joroyordanov-150x150.jpg": {
-		"ft": 16384,
-		"iS": 5142,
-		"oA": 0,
-		"oAP": "\/thumbs\/assets\/avatars\/joroyordanov-150x150.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/assets\/avatars\/joroyordanov-50x50.jpg": {
-		"ft": 16384,
-		"iS": 1520,
-		"oA": 0,
-		"oAP": "\/thumbs\/assets\/avatars\/joroyordanov-50x50.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/blog\/did-nothing-cancel\/01-400x266.jpg": {
-		"ft": 16384,
-		"iS": 26111,
-		"oA": 0,
-		"oAP": "\/thumbs\/blog\/did-nothing-cancel\/01-400x266.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/blog\/did-nothing-cancel\/01-75x75.jpg": {
-		"ft": 16384,
-		"iS": 2834,
-		"oA": 0,
-		"oAP": "\/thumbs\/blog\/did-nothing-cancel\/01-75x75.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/blog\/some-candy\/02-75x75.jpg": {
-		"ft": 16384,
-		"iS": 2449,
-		"oA": 0,
-		"oAP": "\/thumbs\/blog\/some-candy\/02-75x75.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/thumbs\/blog\/under-normal-circumstances\/01-75x75.jpg": {
-		"ft": 16384,
-		"iS": 2834,
-		"oA": 0,
-		"oAP": "\/thumbs\/blog\/under-normal-circumstances\/01-75x75.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/home\/background-75x75.jpg": {
-		"ft": 16384,
-		"iS": 2195,
-		"oA": 0,
-		"oAP": "\/thumbs\/home\/background-75x75.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-520x325.jpg": {
-		"ft": 16384,
-		"iS": 41588,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-520x325.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-520x347.jpg": {
-		"ft": 16384,
-		"iS": 43970,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-520x347.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-75x75.jpg": {
-		"ft": 16384,
-		"iS": 2952,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-a\/000_iqsa35lj2ie-sean-stratton-75x75.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-a\/1mvdinkcd0w-eris-setiawan-75x75.jpg": {
-		"ft": 16384,
-		"iS": 2820,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-a\/1mvdinkcd0w-eris-setiawan-75x75.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-a\/1trra_xcehe-ken-wu-75x75.jpg": {
-		"ft": 16384,
-		"iS": 2978,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-a\/1trra_xcehe-ken-wu-75x75.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-a\/khgqqifs6ve-elijah-henderson-75x75.jpg": {
-		"ft": 16384,
-		"iS": 2926,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-a\/khgqqifs6ve-elijah-henderson-75x75.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-b\/000_7_krux1hsxm-lindsay-henwood-520x325.jpg": {
-		"ft": 16384,
-		"iS": 51057,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-b\/000_7_krux1hsxm-lindsay-henwood-520x325.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-b\/000_7_krux1hsxm-lindsay-henwood-520x347.jpg": {
-		"ft": 16384,
-		"iS": 54400,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-b\/000_7_krux1hsxm-lindsay-henwood-520x347.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-c\/000_klvm9ezgkqs-david-schap-520x325.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-c\/000_klvm9ezgkqs-david-schap-520x325.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-c\/000_klvm9ezgkqs-david-schap-520x326.jpg": {
-		"ft": 16384,
-		"iS": 64670,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-c\/000_klvm9ezgkqs-david-schap-520x326.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-d\/000_d9yog5zp-oq-robert-wiedemann-520x325.jpg": {
-		"ft": 16384,
-		"iS": 13966,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-d\/000_d9yog5zp-oq-robert-wiedemann-520x325.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-d\/000_d9yog5zp-oq-robert-wiedemann-520x347.jpg": {
-		"ft": 16384,
-		"iS": 14478,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-d\/000_d9yog5zp-oq-robert-wiedemann-520x347.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-e\/000_m4kpa7nc-l0-neven-krcmarek-520x325.jpg": {
-		"ft": 16384,
-		"iS": 45408,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-e\/000_m4kpa7nc-l0-neven-krcmarek-520x325.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/thumbs\/projects\/project-e\/000_m4kpa7nc-l0-neven-krcmarek-520x347.jpg": {
-		"ft": 16384,
-		"iS": 47650,
-		"oA": 0,
-		"oAP": "\/thumbs\/projects\/project-e\/000_m4kpa7nc-l0-neven-krcmarek-520x347.jpg",
-		"oF": 0,
-		"opt": 0
+	"\/thumbs\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/thumbs\/index.html",
+		"oF": 0
 		}
 	},
 "hooks": [

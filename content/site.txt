@@ -15,3 +15,7 @@ Copyright: © (date: Year) (link: http://themes.yordanoff.net/kompact/ text: Kom
 ----
 
 Footer: Build something cool. For project inquiries just (email:joro@yordanoff.net text: drop me a line).
+
+----
+
+Navigationtype: navoffcanvas

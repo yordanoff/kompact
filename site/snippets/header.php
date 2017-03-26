@@ -12,7 +12,7 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <?= js('assets/scripts/animsition.min.js') ?>
 </head>
-<body>
+<body class="<?= $site->navigationtype() ?>">
 
     <aside>
         <?php snippet('menu') ?>
