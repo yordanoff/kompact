@@ -7,7 +7,7 @@
 		"uuidString": "092C00B1-2A1E-4952-9E42-8F3D3825B407"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/.htaccess": {
 		"ft": 8192,
@@ -237,18 +237,18 @@
 		"oAP": "\/content\/2-blog\/20170303-some-candy\/article.txt",
 		"oF": 0
 		},
-	"\/content\/2-blog\/20170303-under-normal-circumstances\/01.jpg": {
+	"\/content\/2-blog\/20170304-under-normal-circumstances\/01.jpg": {
 		"ft": 16384,
 		"iS": 459211,
 		"oA": 0,
-		"oAP": "\/content\/2-blog\/20170303-under-normal-circumstances\/01.jpg",
+		"oAP": "\/content\/2-blog\/20170304-under-normal-circumstances\/01.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/content\/2-blog\/20170303-under-normal-circumstances\/article.txt": {
+	"\/content\/2-blog\/20170304-under-normal-circumstances\/article.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/2-blog\/20170303-under-normal-circumstances\/article.txt",
+		"oAP": "\/content\/2-blog\/20170304-under-normal-circumstances\/article.txt",
 		"oF": 0
 		},
 	"\/content\/2-blog\/blog.txt": {
@@ -5580,6 +5580,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -5729,6 +5735,14 @@
 		"oA": 2,
 		"oAP": "\/site\/templates\/home.php",
 		"oF": 0
+		},
+	"\/thumbs\/blog\/under-normal-circumstances\/01-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2840,
+		"oA": 0,
+		"oAP": "\/thumbs\/blog\/under-normal-circumstances\/01-75x75.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/thumbs\/index.html": {
 		"ft": 8192,
@@ -6617,6 +6631,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -6945,6 +6963,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -7038,6 +7060,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},

@@ -1,5 +1,5 @@
 <?php
-    $articles = page('blog')->children()->visible();
+    $articles = page('blog')->children()->visible()->sortBy('date', 'desc');
 ?>
 <section>
     <?php if($articles->count()): ?>
