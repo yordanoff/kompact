@@ -35,6 +35,9 @@ Have fun building a *k*ooler web!
 
 # Changelog
 
+### April 24, 2017
+* Blog posts / projects are now sorted in chronological order.
+
 ### March 26, 2017
 * Navigation Type Switcher is added. Go to Panel -> Site Options and choose if you'd like to keep the default Offcanvas navigation or to activate a Standard anchor navigation.
 
